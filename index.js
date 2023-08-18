@@ -82,7 +82,7 @@ BookedDate:"19-08-2023"},
 
 
 
-app.get('/rooms',(req,res)=>{
+app.get('/',(req,res)=>{
     res.json(rooms);
 });
 
